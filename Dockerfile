@@ -8,7 +8,6 @@ RUN apt install -y git && git clone https://github.com/jmtyszka/atlaskit.git -b 
 ENV PYTHONPATH=/atlaskit
 
 #install template
-ADD CIT168_Amygdala_v1.0.3.zip /template
-RUN ls -la /template
+ADD template /template
 
 
