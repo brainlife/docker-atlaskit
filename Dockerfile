@@ -8,6 +8,6 @@ RUN apt install -y git && git clone https://github.com/jmtyszka/atlaskit.git -b 
 ENV PYTHONPATH=/atlaskit
 
 #install template
-ADD template /template
+ADD CIT168Atlases /template
 
 
